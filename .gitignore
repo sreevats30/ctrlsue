@@ -1,0 +1,34 @@
+# -------- Python --------
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.env
+env/
+venv/
+ENV/
+
+# -------- Flask / Config --------
+instance/
+*.sqlite3
+
+# -------- Node / React --------
+node_modules/
+package-lock.json
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# -------- OS --------
+.DS_Store
+Thumbs.db
+
+# -------- IDE --------
+.vscode/
+.idea/
+
+# -------- Uploads / Storage --------
+encrypted_storage/
+
+# -------- Cryptographic Keys --------
+keys/
